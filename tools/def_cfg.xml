@@ -1,0 +1,17 @@
+<collection shelf="defense">
+    <menu title="防御" cardid="simple_check">
+        <title>通用DOS检测</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/universal_dos_detection.py</func_path>
+        <description>默认请求量500/s 带宽40mb以下，可自定义</description>
+    </menu>
+    <menu title="监听" cardid="listen_info">
+        <title>ARP监听</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/LAN/monitor_traffic.py</func_path>
+        <description>不提供监听功能</description>
+    </menu>
+    <menu title="扫描" cardid="scan_port">
+        <title>端口扫描</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/info_collection/scanner_port.py</func_path>
+        <description>基于nmap</description>
+    </menu>
+</collection>

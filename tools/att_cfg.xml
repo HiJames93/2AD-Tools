@@ -1,0 +1,27 @@
+<collection shelf="attack">
+    <menu title="攻击" cardid="death_ping">
+        <title>死亡Ping</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/ping_of_death.py</func_path>
+        <description>脚本源于网络</description>
+    </menu>
+    <menu title="攻击" cardid="tcp_dos">
+        <title>tcp三次握手攻击</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/procotoll_att.py</func_path>
+        <description>基于socket框架</description>
+    </menu>
+    <menu title="攻击" cardid="syn_dos">
+        <title>SYN泛洪</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/syn_att.py</func_path>
+        <description>基于scapy框架</description>
+    </menu>
+    <menu title="内网" cardid="arp_att">
+        <title>断网攻击</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/LAN/broken_network_attack.py</func_path>
+        <description>arp攻击</description>
+    </menu>
+    <menu title="爆破" cardid="db_boom">
+        <title>数据库爆破</title>
+        <func_path>/root/py_tools/hacker/2AD-Tools/tools/boom/db_boom.py</func_path>
+        <description>支持mysql、redis</description>
+    </menu>
+</collection>
